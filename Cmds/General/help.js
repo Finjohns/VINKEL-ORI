@@ -100,7 +100,7 @@ module.exports = async (context) => {
         menuText += '╰━━━━━━━━━━━━━━━━━━┈⊷\n';
 
         menuText += '━━━━━━━━━━━━━━━━━━━━\n';
-        menuText += '*┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃𒊹┃:*\n\n';
+        menuText += '*┃✵┃✵┃✵┃✵┃✵┃✵┃✵┃✵┃:*\n\n';
 
         // Function to convert text to fancy uppercase font
         const toFancyUppercaseFont = (text) => {
