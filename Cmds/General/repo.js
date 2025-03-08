@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
   try {
     
-    const response = await fetch("https://api.github.com/repos/Keithkeizzah/KEITH-MD");
+    const response = await fetch("https://api.github.com/repos/finjohns/VINKEL-ORI");
     const repoData = await response.json();
 
     
