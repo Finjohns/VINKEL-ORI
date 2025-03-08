@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "VINKEL-ORI",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable ",
   "keywords": [
     "bot",
@@ -14,8 +14,8 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Keithkeizzah/KEITH-MD#readme",
-  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
+  "website": "https://github.com/finjohns/VINKEL-ORI#readme",
+  "repository": "https://github.com/finjohns/VINKEL-ORI.git",
   "logo": "https://i.imgur.com/dAtHp2k.jpeg",
   "success_url": "/",
   "env": {
