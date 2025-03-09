@@ -18,7 +18,7 @@ module.exports = async (context) => {
         for (let i = 0; i < Math.min(results.length, 10); i++) {
             captions += `----------------\nTitle: ${results[i].title}\nTime: ${results[i].timestamp}\nUrl: ${results[i].url}\n`;
         }
-        captions += "\n======\n*Powered by KEITH-MD*";
+        captions += "\n======\n*Powered by VINKEL-ORI*";
 
         await client.sendMessage(m.chat, {
             image: { url: results[0].thumbnail },
