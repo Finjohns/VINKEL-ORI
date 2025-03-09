@@ -26,16 +26,16 @@ module.exports = async (context) => {
 
   // Other variables
   const name = m.pushName || client.getName(m.sender);
-  const url = 'https://github.com/Keithkeizzah/KEITH-MD2';
-  const murl = 'https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47';
-  const img = 'https://i.imgur.com/vTs9acV.jpeg';
+  const url = 'https://github.com/Finjohns/VINKEL-ORI';
+  const murl = 'https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N';
+  const img = 'https://files.catbox.moe/b15b6u.jpg';
 
   // Constructing the contact message
   const con = {
     key: {
       fromMe: false,
       participant: `${m.sender.split('@')[0]}@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: '254748387615@s.whatsapp.net' } : {}),
+      ...(m.chat ? { remoteJid: '254769365617@s.whatsapp.net' } : {}),
     },
     message: {
       contactMessage: {
@@ -57,8 +57,8 @@ module.exports = async (context) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
-        body: 'Regards Keithkeizzah',
+        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 🏴‍☠️🕸️',
+        body: 'Regards JinwiilOnginjo',
         thumbnailUrl: img,
         sourceUrl: murl,
         mediaType: 1,
