@@ -6,7 +6,7 @@ module.exports = async (context) => {
 
     try {
         const categories = [
-            { name: '🏴‍☠️AI🏴‍☠️', emoji: '」' },
+            { name: 'AI', emoji: '」' },
             { name: 'General', emoji: '」' },
             { name: 'Media', emoji: '」' },
             { name: 'Search', emoji: '」' },
@@ -133,7 +133,7 @@ module.exports = async (context) => {
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
-                isForwarded: true
+                isForwarded: false
             }
         });
 
