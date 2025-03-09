@@ -29,7 +29,7 @@ const Myself = await client.decodeJid(client.user.id);
 * Call add : ${calladd}`;
 
 
-const avatar = await client.profilePictureUrl(Myself, 'image').catch(_ => 'https://telegra.ph/file/b34645ca1e3a34f1b3978.jpg');
+const avatar = await client.profilePictureUrl(Myself, 'image').catch(_ => 'https://files.catbox.moe/b15b6u.jpg');
 
 await client.sendMessage(m.chat, { image: { url: avatar}, caption: fnn}, { quoted: m}) 
 
