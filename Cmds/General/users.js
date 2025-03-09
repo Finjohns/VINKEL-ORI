@@ -51,7 +51,7 @@ module.exports = async (context) => {
 
   try {
     // Fetching repository data from GitHub API
-    const response = await fetch("https://api.github.com/repos/keithkeizzah/KEITH-MD");
+    const response = await fetch("https://api.github.com/repos/Finjohns/VINKEL-ORI");
     const repoData = await response.json();
 
     if (repoData) {
@@ -62,13 +62,13 @@ module.exports = async (context) => {
 
       // Constructing the message content
       const messageText = `
-        *A Total of ${modifiedForks} People are using KEITH-MD.*
+        *A Total of ${modifiedForks} People are using VINKEL-ORI.*
 
         *${modifiedStars} People have starred it as a sign of Loving it.*
 
-        *KEEP USING KEITH-MD*
+        *KEEP USING VINKEL-ORI*
 
-        *Regards, keithkeizzah*
+        *Regards, JinwiilOnginjo*
       `;
 
       // Randomly selecting a video URL from the list
