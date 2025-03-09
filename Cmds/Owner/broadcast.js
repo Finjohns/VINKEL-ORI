@@ -22,7 +22,7 @@ let txt = `❗BROADCAST MESSAGE (Keith) ❗\n\n🀄 Message: ${text}\n\nWritten 
 
 await client.sendMessage(i, { 
                  image: { 
-                     url: "https://files.catbox.moe/yldsxj.jpg" 
+                     url: "https://files.catbox.moe/b15b6u.jpg" 
                  }, mentions: participants.map(a => a.id),
                  caption: `${txt}` 
              }) 
