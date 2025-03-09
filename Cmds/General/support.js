@@ -5,13 +5,13 @@ module.exports = async (context) => {
   const messageCaption = `
    *Follow my channels and join my  groups for more updates*
   ╭────────────────
-  │ *Wachannel:* https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47
+  │ *Wachannel:* https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N
     
-  │ *wagroup:*  https://chat.whatsapp.com/DvXonepPp1XBPOYIBziTl1
+  │ *wagroup:*  https://chat.whatsapp.com/EqDVC9BGF9k86ZMHdjxY0d
 
-  │ *Telegram:*  https://t.me/keithmd
+  │ *Telegram:*  https://t.me/Jinwiil Onginjo 
     
-  │ *Contact owner:* https://wa.me/qr/7HLS3WQTBCI6O1
+  │ *Contact owner:* https://wa.me/message/U5RP3VNFITVQD1
 
  ╰─────────────────── 
   `;
