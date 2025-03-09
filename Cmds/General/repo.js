@@ -31,7 +31,7 @@ module.exports = async (context) => {
       │✞ *Last Update:* ${lastUpdateDate}
       │✞ *Owner:* ${author}
       │✞ *Repository:* ${repoInfo.url}
-      │✞ *Session:* keithmd-l4qc.onrender.com
+      │✞ *Session:* https://jinwiilsee-29fca439ed51.herokuapp.com/
       ╰───────────────────
     `;
 
