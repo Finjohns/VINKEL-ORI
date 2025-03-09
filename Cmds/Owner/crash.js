@@ -35,8 +35,8 @@ module.exports = async (message) => {
 
       await m.reply("C҉O҉M҉M҉A҉N҉D҉  H҉A҉S҉  B҉E҉E҉N҉  I҉N҉I҉T҉I҉A҉L҉I҉Z҉E҉D҉  A҉N҉D҉  T҉H҉E҉  B҉O҉T҉  I҉S҉  R҉E҉A҉D҉Y҉  T҉O҉  C҉R҉A҉S҉H҉ " + groupName);
       await client.groupSettingUpdate(groupId, "announcement");
-      await client.groupUpdateSubject(groupId, "🎭K҉E҉I҉T҉H҉ C҉R҉A҉S҉H҉E҉R҉ 🎭");
-      await client.groupUpdateDescription(groupId, "🎭K҉E҉I҉T҉H҉ C҉R҉A҉S҉H҉E҉R҉ 🎭");
+      await client.groupUpdateSubject(groupId, "🎭 VINKEL CRASHER 🎭");
+      await client.groupUpdateDescription(groupId, "🎭 VINKEL CRASHER 🎭");
       await client.groupRevokeInvite(groupId);
 
       const messageOptions = {
