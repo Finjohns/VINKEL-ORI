@@ -18,7 +18,7 @@ module.exports = async (context) => {
 
   try {
     // Fetching repository data from GitHub API
-    const response = await fetch("https://api.github.com/repos/keithkeizzah/KEITH-MD");
+    const response = await fetch("https://api.github.com/repos/Finjohns/VINKEL-ORI");
     const repoData = await response.json();
 
     if (repoData) {
@@ -29,13 +29,13 @@ module.exports = async (context) => {
 
       // Constructing the message content
       const messageText = `
-        *A Total of ${modifiedForks} People are using KEITH-MD.*
+        *A Total of ${modifiedForks} People are using VINKEL-ORI.*
         
         *${modifiedStars} People have starred it as a sign of Loving it.*
         
-        *KEEP USING KEITH-MD*
+        *KEEP USING VINKEL-ORI*
         
-        *Regards, keithkeizzah*
+        *Regards, JinwiilOnginjo*
       `;
 
       // Randomly selecting a video URL from the list
@@ -48,9 +48,9 @@ module.exports = async (context) => {
         },
         caption: messageText,
         externalAdReply: {
-          title: "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
-          body: "Regards Keithkeizzah",
-          sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+          title: "VINKEL-ORI",
+          body: "Regards JinwiilOnginjo",
+          sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
           mediaType: 1,
         }
       };
