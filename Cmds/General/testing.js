@@ -9,7 +9,7 @@ module.exports = async (context) => {
   `;
 
   // Define the image URL
-  let imagePath = 'https://files.catbox.moe/2gegza.jpg';
+  let imagePath = 'https://files.catbox.moe/b15b6u.jpg';
 
   // Define the buttons
   const buttons = [
@@ -43,13 +43,13 @@ module.exports = async (context) => {
               highlight_label: "",
               rows: [
                 {
-                  header: "Keith",
-                  title: "MD",
-                  description: "Regards Keith",
+                  header: "Vinkel",
+                  title: "ORI",
+                  description: "Regards VINKEL",
                   id: `${prefix}menu`, 
                 },
                 {
-                  header: "KEITH MD",
+                  header: "VINKEL-ORI",
                   title: "Appreciation",
                   description: "Regards to the owner",
                   id: `${prefix}speed`, 
@@ -67,21 +67,21 @@ module.exports = async (context) => {
   const buttonMessage = {
     image: { url: imagePath },
     caption: p,
-    footer: "© Keith\n",
+    footer: "© Vinkel\n",
     headerType: 1,
     buttons: buttons,
     viewOnce: true,
     contextInfo: {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363266249040649@newsletter',
-        newsletterName: 'Keith Support',
+        newsletterJid: '120363388529450317@newsletter',
+        newsletterName: 'Vinkel Support',
       },
       externalAdReply: {
-        title: "Keith Testing",
-        body: "Keith",
-        thumbnailUrl: `https://files.catbox.moe/12t71b.jpg`,
-        sourceUrl: "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
+        title: "Vinkel Testing",
+        body: "Vinkel",
+        thumbnailUrl: `https://files.catbox.moe/b15b6u.jpg`,
+        sourceUrl: "https://whatsapp.com/channel/0029VaxZbeSDTkJwBgUb9u3N",
         mediaType: 1,
         renderLargerThumbnail: true,
       },
