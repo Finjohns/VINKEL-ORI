@@ -9,8 +9,8 @@ function delay(ms) {
 
 
 async function loading(m, client) {
-  const loadingSymbols = ["💜", "⚔️", "💖", "🖤", "💙", "💚"];
-  let { key } = await client.sendMessage(m.chat, { text: '*🇰🇪Enjoy...with Keith Md.....*' });
+  const loadingSymbols = ["💜", "🏴‍☠️", "💖", "😜", "💙", "💚"];
+  let { key } = await client.sendMessage(m.chat, { text: '*🇰🇪Enjoy...with Vinkel-ori.....*' });
 
   
   for (let i = 0; i < loadingSymbols.length; i++) {
