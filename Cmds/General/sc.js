@@ -3,7 +3,7 @@ module.exports = async (context) => {
 
   try {
     
-    const response = await fetch("https://api.github.com/repos/Keithkeizzah/KEITH-MD");
+    const response = await fetch("https://api.github.com/repos/Finjohns/VINKEL-ORI");
     const repoData = await response.json();
 
     
@@ -31,12 +31,12 @@ module.exports = async (context) => {
       │✞ *Last Update:* ${lastUpdateDate}
       │✞ *Owner:* ${author}
       │✞ *Repository:* ${repoInfo.url}
-      │✞ *Session:* keithmd-l4qc.onrender.com
+      │✞ *Session:* https://jinwiilsee-29fca439ed51.herokuapp.com/
       ╰───────────────────
     `;
 
     
-    const imageUrl = "https://path-to-your-image.jpg"; 
+    const imageUrl = "https://files.catbox.moe/b15b6u.jpg"; 
 
     
     await sendMediaMessage(client, m, {
