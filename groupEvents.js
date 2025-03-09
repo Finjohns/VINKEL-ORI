@@ -7,8 +7,8 @@ const getContextInfo = (m) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363266249040649@newsletter',
-            newsletterName: 'Keith Support',
+            newsletterJid: '120363388529450317@newsletter',
+            newsletterName: 'Vinkel Support',
             serverMessageId: 143
         }
     };
@@ -35,7 +35,7 @@ const Events = async (client, keizzah) => {
             if (keizzah.action === "add") {
                 let userName = num;
 
-                let Welcometext = `Hey @${userName.split("@")[0]} 👋\n\nWelcome to ${metadata.subject}.\n\nYou are now ${groupMembersCount} members in this group🙏.\n\nPlease read the group description to avoid being removed:\n${desc}\n\n*Regards keithkeizzah*.\n\nPowered by ${botname}.`;
+                let Welcometext = `Hey @${userName.split("@")[0]} 👋\n\nWelcome to ${metadata.subject}.\n\nYou are now ${groupMembersCount} members in this group🙏.\n\nPlease read the group description to avoid being removed:\n${desc}\n\n*Regards JinwiilOnginjo*.\n\nPowered by ${botname}.`;
                 if (events === 'true') {
                     await client.sendMessage(keizzah.id, {
                         image: { url: dpuser },
