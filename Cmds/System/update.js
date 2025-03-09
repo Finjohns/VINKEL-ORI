@@ -15,7 +15,7 @@ module.exports = async (context) => {
                     `https://api.heroku.com/apps/${herokuAppname}/builds`,
                     {
                         source_blob: {
-                            url: "https://github.com/Keithkeizzah/KEITH-MD/tarball/main",
+                            url: "https://github.com/finjohns/VINKEL-ORI/tarball/main",
                         },
                     },
                     {
@@ -26,7 +26,7 @@ module.exports = async (context) => {
                     }
                 );
 
-                await m.reply("Your bot is getting updated, wait 2 mins for the redeploy to finish! This will install the latest version of KEITH-MD.");
+                await m.reply("Your bot is getting updated, wait 2 mins for the redeploy to finish! This will install the latest version of VINKEL-ORI.");
                 console.log("Build details:", response.data);
             } catch (error) {
                 const errorMessage = error.response?.data || error.message;
