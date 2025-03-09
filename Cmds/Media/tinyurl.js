@@ -6,7 +6,7 @@ module.exports = async (context) => {
   // Check if the text (URL) is provided
   if (!text) {
     return sendReply(client, m, 
-      `Hello,\nKeith Tiny URL Shortener Here.\nPlease provide a URL to shorten.\n*Usage:*\n.tiny https://example.com`
+      `Hello,\nvinkel Tiny URL Shortener Here.\nPlease provide a URL to shorten.\n*Usage:*\n.tiny https://example.com`
     );
   }
 
