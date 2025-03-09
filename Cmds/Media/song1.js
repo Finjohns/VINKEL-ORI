@@ -16,7 +16,7 @@ async function downloadAudio(url) {
 
     return {
       status: true,
-      createdBy: "Keithkeizzah",
+      createdBy: "JinwiilOnginjo",
       title: title,
       downloadLink: downloadLink
     };
