@@ -10,7 +10,7 @@ function delay(ms) {
 // Function to show loading animation
 async function loading(m, client) {
   const loadingSymbols = ["💜", "⚔️", "💖", "🖤", "💙", "💚"];
-  let { key } = await client.sendMessage(m.chat, { text: '*🇰🇪Enjoy...with Keith Md.....*' });
+  let { key } = await client.sendMessage(m.chat, { text: '*🇰🇪Enjoy...with Vinke-ori.....*' });
 
   // Run the loading animation without blocking the main code
   for (let i = 0; i < loadingSymbols.length; i++) {
