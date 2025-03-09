@@ -19,7 +19,7 @@ module.exports = async (context) => {
     // Define the model and the user/system message
     const model = 'gpt-4-turbo-2024-04-09';
     const userMessage = { role: 'user', content: text };
-    const systemMessage = { role: 'system', content: 'You are an assistant in WhatsApp. You are called Keith. You respond to user commands.' };
+    const systemMessage = { role: 'system', content: 'You are an assistant in WhatsApp. You are called Vinkel. You respond to user commands.' };
 
     // Add user input to the conversation data
     conversationData.push(userMessage);
