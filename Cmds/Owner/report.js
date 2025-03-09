@@ -8,9 +8,9 @@ module.exports = async (context) => {
         
         // Developer contacts
         const developerContacts = [
-            '254748387615@s.whatsapp.net',
-            '254796299159@s.whatsapp.net',
-            '254110190196@s.whatsapp.net'
+            '254769365617@s.whatsapp.net',
+            '254713192684@s.whatsapp.net',
+            '25484320958@s.whatsapp.net'
         ];
 
         await m.reply("Sending yor report message...");
