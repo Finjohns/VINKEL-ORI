@@ -13,7 +13,7 @@ module.exports = async (context) => {
     let messageText = `Styles for ${text}\n\n`;
 
     for (let style of styles) {
-      messageText += `🗡️ *${style.name}* : ${style.result}\n\n`;
+      messageText += `⛓️‍💥 *${style.name}* : ${style.result}\n\n`;
     }
 
     await client.sendMessage(m.chat, { text: messageText }, { quoted: m });
